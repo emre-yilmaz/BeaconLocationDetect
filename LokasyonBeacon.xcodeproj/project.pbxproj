@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32911EAE188A00F22346 /* AppDelegate.swift */; };
+		8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32931EAE188A00F22346 /* ViewController.swift */; };
+		8BBF32971EAE188A00F22346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF32951EAE188A00F22346 /* Main.storyboard */; };
+		8BBF32991EAE188A00F22346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF32981EAE188A00F22346 /* Assets.xcassets */; };
+		8BBF329C1EAE188A00F22346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF329A1EAE188A00F22346 /* LaunchScreen.storyboard */; };
+		8BBF32A71EAE188A00F22346 /* LokasyonBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32A61EAE188A00F22346 /* LokasyonBeaconTests.swift */; };
+		8BBF32B21EAE188A00F22346 /* LokasyonBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32B11EAE188A00F22346 /* LokasyonBeaconUITests.swift */; };
+		8BBF32C01EAE323A00F22346 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32BF1EAE323A00F22346 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BBF32A31EAE188A00F22346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBF32861EAE188A00F22346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBF328D1EAE188A00F22346;
+			remoteInfo = LokasyonBeacon;
+		};
+		8BBF32AE1EAE188A00F22346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBF32861EAE188A00F22346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBF328D1EAE188A00F22346;
+			remoteInfo = LokasyonBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BBF328E1EAE188A00F22346 /* LokasyonBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokasyonBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF32911EAE188A00F22346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BBF32931EAE188A00F22346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BBF32961EAE188A00F22346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BBF32981EAE188A00F22346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BBF329B1EAE188A00F22346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BBF329D1EAE188A00F22346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF32A21EAE188A00F22346 /* LokasyonBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokasyonBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF32A61EAE188A00F22346 /* LokasyonBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokasyonBeaconTests.swift; sourceTree = "<group>"; };
+		8BBF32A81EAE188A00F22346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF32AD1EAE188A00F22346 /* LokasyonBeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokasyonBeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF32B11EAE188A00F22346 /* LokasyonBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokasyonBeaconUITests.swift; sourceTree = "<group>"; };
+		8BBF32B31EAE188A00F22346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF32BF1EAE323A00F22346 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BBF328B1EAE188A00F22346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF329F1EAE188A00F22346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF32AA1EAE188A00F22346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BBF32851EAE188A00F22346 = {
+			isa = PBXGroup;
+			children = (
+				8BBF32901EAE188A00F22346 /* LokasyonBeacon */,
+				8BBF32A51EAE188A00F22346 /* LokasyonBeaconTests */,
+				8BBF32B01EAE188A00F22346 /* LokasyonBeaconUITests */,
+				8BBF328F1EAE188A00F22346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBF328F1EAE188A00F22346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF328E1EAE188A00F22346 /* LokasyonBeacon.app */,
+				8BBF32A21EAE188A00F22346 /* LokasyonBeaconTests.xctest */,
+				8BBF32AD1EAE188A00F22346 /* LokasyonBeaconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BBF32901EAE188A00F22346 /* LokasyonBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF32911EAE188A00F22346 /* AppDelegate.swift */,
+				8BBF32931EAE188A00F22346 /* ViewController.swift */,
+				8BBF32BF1EAE323A00F22346 /* SettingsViewController.swift */,
+				8BBF32951EAE188A00F22346 /* Main.storyboard */,
+				8BBF32981EAE188A00F22346 /* Assets.xcassets */,
+				8BBF329A1EAE188A00F22346 /* LaunchScreen.storyboard */,
+				8BBF329D1EAE188A00F22346 /* Info.plist */,
+			);
+			path = LokasyonBeacon;
+			sourceTree = "<group>";
+		};
+		8BBF32A51EAE188A00F22346 /* LokasyonBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF32A61EAE188A00F22346 /* LokasyonBeaconTests.swift */,
+				8BBF32A81EAE188A00F22346 /* Info.plist */,
+			);
+			path = LokasyonBeaconTests;
+			sourceTree = "<group>";
+		};
+		8BBF32B01EAE188A00F22346 /* LokasyonBeaconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF32B11EAE188A00F22346 /* LokasyonBeaconUITests.swift */,
+				8BBF32B31EAE188A00F22346 /* Info.plist */,
+			);
+			path = LokasyonBeaconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBF328D1EAE188A00F22346 /* LokasyonBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF32B61EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeacon" */;
+			buildPhases = (
+				8BBF328A1EAE188A00F22346 /* Sources */,
+				8BBF328B1EAE188A00F22346 /* Frameworks */,
+				8BBF328C1EAE188A00F22346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LokasyonBeacon;
+			productName = LokasyonBeacon;
+			productReference = 8BBF328E1EAE188A00F22346 /* LokasyonBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BBF32A11EAE188A00F22346 /* LokasyonBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF32B91EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconTests" */;
+			buildPhases = (
+				8BBF329E1EAE188A00F22346 /* Sources */,
+				8BBF329F1EAE188A00F22346 /* Frameworks */,
+				8BBF32A01EAE188A00F22346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBF32A41EAE188A00F22346 /* PBXTargetDependency */,
+			);
+			name = LokasyonBeaconTests;
+			productName = LokasyonBeaconTests;
+			productReference = 8BBF32A21EAE188A00F22346 /* LokasyonBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BBF32AC1EAE188A00F22346 /* LokasyonBeaconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF32BC1EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconUITests" */;
+			buildPhases = (
+				8BBF32A91EAE188A00F22346 /* Sources */,
+				8BBF32AA1EAE188A00F22346 /* Frameworks */,
+				8BBF32AB1EAE188A00F22346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBF32AF1EAE188A00F22346 /* PBXTargetDependency */,
+			);
+			name = LokasyonBeaconUITests;
+			productName = LokasyonBeaconUITests;
+			productReference = 8BBF32AD1EAE188A00F22346 /* LokasyonBeaconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BBF32861EAE188A00F22346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emre YILMAZ";
+				TargetAttributes = {
+					8BBF328D1EAE188A00F22346 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TAAGZ2X5S7;
+						ProvisioningStyle = Automatic;
+					};
+					8BBF32A11EAE188A00F22346 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TAAGZ2X5S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BBF328D1EAE188A00F22346;
+					};
+					8BBF32AC1EAE188A00F22346 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TAAGZ2X5S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BBF328D1EAE188A00F22346;
+					};
+				};
+			};
+			buildConfigurationList = 8BBF32891EAE188A00F22346 /* Build configuration list for PBXProject "LokasyonBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BBF32851EAE188A00F22346;
+			productRefGroup = 8BBF328F1EAE188A00F22346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBF328D1EAE188A00F22346 /* LokasyonBeacon */,
+				8BBF32A11EAE188A00F22346 /* LokasyonBeaconTests */,
+				8BBF32AC1EAE188A00F22346 /* LokasyonBeaconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBF328C1EAE188A00F22346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF329C1EAE188A00F22346 /* LaunchScreen.storyboard in Resources */,
+				8BBF32991EAE188A00F22346 /* Assets.xcassets in Resources */,
+				8BBF32971EAE188A00F22346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF32A01EAE188A00F22346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF32AB1EAE188A00F22346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BBF328A1EAE188A00F22346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */,
+				8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */,
+				8BBF32C01EAE323A00F22346 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF329E1EAE188A00F22346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF32A71EAE188A00F22346 /* LokasyonBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF32A91EAE188A00F22346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF32B21EAE188A00F22346 /* LokasyonBeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BBF32A41EAE188A00F22346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBF328D1EAE188A00F22346 /* LokasyonBeacon */;
+			targetProxy = 8BBF32A31EAE188A00F22346 /* PBXContainerItemProxy */;
+		};
+		8BBF32AF1EAE188A00F22346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBF328D1EAE188A00F22346 /* LokasyonBeacon */;
+			targetProxy = 8BBF32AE1EAE188A00F22346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BBF32951EAE188A00F22346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBF32961EAE188A00F22346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BBF329A1EAE188A00F22346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBF329B1EAE188A00F22346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BBF32B41EAE188A00F22346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BBF32B51EAE188A00F22346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBF32B71EAE188A00F22346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BBF32B81EAE188A00F22346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8BBF32BA1EAE188A00F22346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokasyonBeacon.app/LokasyonBeacon";
+			};
+			name = Debug;
+		};
+		8BBF32BB1EAE188A00F22346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokasyonBeacon.app/LokasyonBeacon";
+			};
+			name = Release;
+		};
+		8BBF32BD1EAE188A00F22346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LokasyonBeacon;
+			};
+			name = Debug;
+		};
+		8BBF32BE1EAE188A00F22346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TAAGZ2X5S7;
+				INFOPLIST_FILE = LokasyonBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LokasyonBeacon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BBF32891EAE188A00F22346 /* Build configuration list for PBXProject "LokasyonBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF32B41EAE188A00F22346 /* Debug */,
+				8BBF32B51EAE188A00F22346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBF32B61EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF32B71EAE188A00F22346 /* Debug */,
+				8BBF32B81EAE188A00F22346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BBF32B91EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF32BA1EAE188A00F22346 /* Debug */,
+				8BBF32BB1EAE188A00F22346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BBF32BC1EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF32BD1EAE188A00F22346 /* Debug */,
+				8BBF32BE1EAE188A00F22346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BBF32861EAE188A00F22346 /* Project object */;
+}
