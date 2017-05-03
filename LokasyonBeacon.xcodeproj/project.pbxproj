@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7677561EBA452200A68F3B /* BeaconDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7677551EBA452200A68F3B /* BeaconDetect.m */; };
 		8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32911EAE188A00F22346 /* AppDelegate.swift */; };
 		8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32931EAE188A00F22346 /* ViewController.swift */; };
 		8BBF32971EAE188A00F22346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF32951EAE188A00F22346 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7677531EBA452200A68F3B /* LokasyonBeacon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LokasyonBeacon-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B7677541EBA452200A68F3B /* BeaconDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetect.h; sourceTree = "<group>"; };
+		8B7677551EBA452200A68F3B /* BeaconDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetect.m; sourceTree = "<group>"; };
 		8BBF328E1EAE188A00F22346 /* LokasyonBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokasyonBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBF32911EAE188A00F22346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BBF32931EAE188A00F22346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +83,13 @@
 		8BBF32851EAE188A00F22346 = {
 			isa = PBXGroup;
 			children = (
+				8B7677541EBA452200A68F3B /* BeaconDetect.h */,
+				8B7677551EBA452200A68F3B /* BeaconDetect.m */,
 				8BBF32901EAE188A00F22346 /* LokasyonBeacon */,
 				8BBF32A51EAE188A00F22346 /* LokasyonBeaconTests */,
 				8BBF32B01EAE188A00F22346 /* LokasyonBeaconUITests */,
 				8BBF328F1EAE188A00F22346 /* Products */,
+				8B7677531EBA452200A68F3B /* LokasyonBeacon-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +204,7 @@
 					8BBF328D1EAE188A00F22346 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = TAAGZ2X5S7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					8BBF32A11EAE188A00F22346 = {
@@ -267,6 +275,7 @@
 			files = (
 				8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */,
 				8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */,
+				8B7677561EBA452200A68F3B /* BeaconDetect.m in Sources */,
 				8BBF32C01EAE323A00F22346 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TAAGZ2X5S7;
 				INFOPLIST_FILE = LokasyonBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LokasyonBeacon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -432,11 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TAAGZ2X5S7;
 				INFOPLIST_FILE = LokasyonBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.regisapp.emreyilmaz.LokasyonBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LokasyonBeacon-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +532,7 @@
 				8BBF32B81EAE188A00F22346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BBF32B91EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				8BBF32BB1EAE188A00F22346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BBF32BC1EAE188A00F22346 /* Build configuration list for PBXNativeTarget "LokasyonBeaconUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				8BBF32BE1EAE188A00F22346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
