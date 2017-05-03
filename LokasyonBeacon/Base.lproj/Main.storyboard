@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Efn-zX-g9Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Efn-zX-g9Y">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -304,10 +304,10 @@
             </objects>
             <point key="canvasLocation" x="1592.8" y="893.70314842578716"/>
         </scene>
-        <!--View Controller-->
+        <!--Beacon View Controller-->
         <scene sceneID="1hC-Ml-Bm1">
             <objects>
-                <viewController id="g4s-QK-XwE" customClass="ViewController" customModule="LokasyonBeacon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g4s-QK-XwE" customClass="BeaconViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R9k-4f-jQ8"/>
                         <viewControllerLayoutGuide type="bottom" id="GoE-f8-aLM"/>
@@ -323,34 +323,30 @@
                                     <constraint firstAttribute="width" constant="24" id="iva-gO-HJK"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBeacon" translatesAutoresizingMaskIntoConstraints="NO" id="COC-MG-yuX">
-                                <rect key="frame" x="20" y="692" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="24" id="vL4-HX-f5M"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBeacon" translatesAutoresizingMaskIntoConstraints="NO" id="t5O-gt-7hl">
                                 <rect key="frame" x="20" y="72" width="24" height="93"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="cqF-Vc-Xlc"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="pJd-cB-a2E">
-                                <rect key="frame" x="195" y="356" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBeacon" translatesAutoresizingMaskIntoConstraints="NO" id="COC-MG-yuX">
+                                <rect key="frame" x="20" y="356" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="vL4-HX-f5M"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SJu-yW-rcf" firstAttribute="trailing" secondItem="lA1-DS-ciX" secondAttribute="trailingMargin" id="JT5-5q-t53"/>
-                            <constraint firstItem="t5O-gt-7hl" firstAttribute="leading" secondItem="lA1-DS-ciX" secondAttribute="leadingMargin" id="LQr-zW-9H2"/>
+                            <constraint firstItem="COC-MG-yuX" firstAttribute="centerY" secondItem="lA1-DS-ciX" secondAttribute="centerY" id="27a-TL-xWa"/>
+                            <constraint firstItem="SJu-yW-rcf" firstAttribute="trailing" secondItem="lA1-DS-ciX" secondAttribute="trailingMargin" id="Bt8-SD-piW"/>
                             <constraint firstItem="t5O-gt-7hl" firstAttribute="leading" secondItem="COC-MG-yuX" secondAttribute="leading" id="NmX-jc-lTQ"/>
+                            <constraint firstItem="COC-MG-yuX" firstAttribute="leading" secondItem="lA1-DS-ciX" secondAttribute="leadingMargin" id="Nxh-VH-bpT"/>
                             <constraint firstItem="GoE-f8-aLM" firstAttribute="top" secondItem="SJu-yW-rcf" secondAttribute="bottom" constant="571" id="PIf-5c-GED"/>
                             <constraint firstItem="t5O-gt-7hl" firstAttribute="trailing" secondItem="COC-MG-yuX" secondAttribute="trailing" id="eVe-iL-fNO"/>
                             <constraint firstItem="t5O-gt-7hl" firstAttribute="top" secondItem="R9k-4f-jQ8" secondAttribute="bottom" constant="8" symbolic="YES" id="qlP-yZ-yLP"/>
                             <constraint firstItem="t5O-gt-7hl" firstAttribute="bottom" secondItem="SJu-yW-rcf" secondAttribute="bottom" id="rE2-74-eeq"/>
                             <constraint firstItem="t5O-gt-7hl" firstAttribute="top" secondItem="SJu-yW-rcf" secondAttribute="top" id="wcs-ls-QLh"/>
-                            <constraint firstAttribute="bottom" secondItem="COC-MG-yuX" secondAttribute="bottom" constant="20" symbolic="YES" id="yrr-4H-xfj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -377,6 +373,5 @@
     </scenes>
     <resources>
         <image name="imgBeacon" width="344" height="329"/>
-        <image name="pin" width="64" height="64"/>
     </resources>
 </document>

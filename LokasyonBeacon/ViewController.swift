@@ -19,6 +19,11 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     var beaconTwoDis = Double()
     var beaconThreeDis = Double()
     
+    var delta = Double()
+    var alpha = Double()
+    var bataa = Double()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,9 +53,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             print(beacon)
             
             if (beacon.minor == 10001) {
-                print("O benimmm")
                 self.beaconOneDis = beacon.accuracy
-                
             }
             if (beacon.minor == 10002){
                 self.beaconTwoDis = beacon.accuracy
@@ -60,15 +63,9 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             }
         
         print(beaconThreeDis,beaconTwoDis,beaconOneDis,"SELAM")
+            realDisToPix()
         
         }
-        
-        
-        //listBeacons.removeAll()
-      //  listBeacons = beacons;
-        
-        // print(beacons)
-       // indoorLocationScan()
         
     }
 
@@ -86,7 +83,32 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     let beaconThreeCoordinateY = 480 ;
     
 
-//    
+    
+    
+    func realDisToPix() {
+        self.beaconOneDis   = (self.beaconOneDis * 100)*1
+        self.beaconTwoDis   = (self.beaconTwoDis * 100)*1
+        self.beaconThreeDis = (self.beaconThreeDis * 100)*1
+    }
+    
+    
+    func calculationDAB(){
+//        let delta = 4 * ((beaconOneCoordinateX - beaconTwoCoordinateX)*(beaconOneCoordinateY - beaconThreeCoordinateY) - (beaconOneCoordinateX - beaconThreeCoordinateX)(beaconOneCoordinateY - beaconTwoCoordinateY))
+//        
+//        let alpha = ((beaconTwoDis * beaconTwoDis) - (beaconOneDis * beaconOneDis) - (beaconTwoCoordinateX * beaconTwoCoordinateX) + (beaconOneCoordinateX * beaconOneCoordinateX) - (beaconTwoCoordinateY * beaconTwoCoordinateY) + (beaconOneCoordinateY * beaconOneCoordinateY))
+//        
+//        let betaa = ((beaconThreeDis * beaconThreeDis) - (beaconOneDis * beaconOneDis) - (beaconThreeCoordinateX * beaconThreeCoordinateX) + (beaconOneCoordinateX * beaconOneCoordinateX) - (beaconThreeCoordinateY * beaconThreeCoordinateY) + (beaconOneCoordinateY * beaconOneCoordinateY))
+//        
+    }
+    
+    func realPosition() {
+    
+        
+        
+        
+    }
+
+//
 //    //Calculating Distances with Factor (cm to Pixel)   *1 = Factor cm to Pixel
 //    BeaconDistanceOne   = (BeaconDistanceOne * 100)     *1;
 //    BeaconDistanceTwo   = (BeaconDistanceTwo * 100)     *1;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B7677561EBA452200A68F3B /* BeaconDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7677551EBA452200A68F3B /* BeaconDetect.m */; };
 		8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32911EAE188A00F22346 /* AppDelegate.swift */; };
 		8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32931EAE188A00F22346 /* ViewController.swift */; };
 		8BBF32971EAE188A00F22346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF32951EAE188A00F22346 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		8BBF32A71EAE188A00F22346 /* LokasyonBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32A61EAE188A00F22346 /* LokasyonBeaconTests.swift */; };
 		8BBF32B21EAE188A00F22346 /* LokasyonBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32B11EAE188A00F22346 /* LokasyonBeaconUITests.swift */; };
 		8BBF32C01EAE323A00F22346 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF32BF1EAE323A00F22346 /* SettingsViewController.swift */; };
+		C3313D561EBA832E0008ED37 /* BeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3313D551EBA832E0008ED37 /* BeaconViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 
 /* Begin PBXFileReference section */
 		8B7677531EBA452200A68F3B /* LokasyonBeacon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LokasyonBeacon-Bridging-Header.h"; sourceTree = "<group>"; };
-		8B7677541EBA452200A68F3B /* BeaconDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetect.h; sourceTree = "<group>"; };
-		8B7677551EBA452200A68F3B /* BeaconDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetect.m; sourceTree = "<group>"; };
 		8BBF328E1EAE188A00F22346 /* LokasyonBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokasyonBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBF32911EAE188A00F22346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BBF32931EAE188A00F22346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		8BBF32B11EAE188A00F22346 /* LokasyonBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokasyonBeaconUITests.swift; sourceTree = "<group>"; };
 		8BBF32B31EAE188A00F22346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BBF32BF1EAE323A00F22346 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		C3313D541EBA832E0008ED37 /* BeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		C3313D551EBA832E0008ED37 /* BeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 		8BBF32851EAE188A00F22346 = {
 			isa = PBXGroup;
 			children = (
-				8B7677541EBA452200A68F3B /* BeaconDetect.h */,
-				8B7677551EBA452200A68F3B /* BeaconDetect.m */,
+				C3313D541EBA832E0008ED37 /* BeaconViewController.h */,
+				C3313D551EBA832E0008ED37 /* BeaconViewController.m */,
 				8BBF32901EAE188A00F22346 /* LokasyonBeacon */,
 				8BBF32A51EAE188A00F22346 /* LokasyonBeaconTests */,
 				8BBF32B01EAE188A00F22346 /* LokasyonBeaconUITests */,
@@ -275,7 +275,7 @@
 			files = (
 				8BBF32941EAE188A00F22346 /* ViewController.swift in Sources */,
 				8BBF32921EAE188A00F22346 /* AppDelegate.swift in Sources */,
-				8B7677561EBA452200A68F3B /* BeaconDetect.m in Sources */,
+				C3313D561EBA832E0008ED37 /* BeaconViewController.m in Sources */,
 				8BBF32C01EAE323A00F22346 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
