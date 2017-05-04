@@ -68,9 +68,9 @@
     
     _beaconOneCoordinateX = 0; _beaconOneCoordinateY = 0;
     
-    _beaconTwoCoordinateX = 370; _beaconTwoCoordinateY = 50;
+    _beaconTwoCoordinateX = 370; _beaconTwoCoordinateY = 5;
     
-    _beaconThreeCoordinateX = 20; _beaconThreeCoordinateY = 400;
+    _beaconThreeCoordinateX = 10; _beaconThreeCoordinateY = 600;
     
     // Do any additional setup after loading the view.
     
@@ -155,9 +155,9 @@
 
 
     //Calculating Distances with Factor (cm to Pixel)   *1 = Factor cm to Pixel
- //   _BeaconDistanceOne   = (_BeaconDistanceOne * 100)     *1;
- //   _BeaconDistanceTwo   = (_BeaconDistanceTwo * 100)     *1;
- //   _BeaconDistanceThree = (_BeaconDistanceThree * 100)   *1;
+    _BeaconDistanceOne   = (_BeaconDistanceOne * 100)     *1.2;
+    _BeaconDistanceTwo   = (_BeaconDistanceTwo * 100)     *1.2;
+    _BeaconDistanceThree = (_BeaconDistanceThree * 100)   *1.2;
     
     
     //Calculating Delta Alpha Beta
@@ -249,6 +249,7 @@
     
     NSLog(@"PositionX = %f", y);
     NSLog(@"PositionY = %f", x);
+    
    
     
     NSString* PositionStringX = [NSString stringWithFormat:
