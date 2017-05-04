@@ -13,5 +13,10 @@
 
 @property (strong, nonatomic) CLBeaconRegion *beaconRegion;
 
+- (CGPoint)getCoordinateWithBeaconA:(CGPoint)a beaconB:(CGPoint)b beaconC:(CGPoint)c distanceA:(CGFloat)dA distanceB:(CGFloat)dB distanceC:(CGFloat)dC; 
+
+@property (weak, nonatomic) IBOutlet UILabel *lblXCord;
+@property (weak, nonatomic) IBOutlet UILabel *lblYCord;
+
 
 @end
